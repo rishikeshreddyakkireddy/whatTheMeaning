@@ -1,0 +1,30 @@
+Good-programming-practices
+
+ why ? 
+ 
+ Helps in reducing the time investment and effort investment.
+ can solve more problems in lesser time and can spend more time without getting irritated.
+
+Indicators for saying a program is good
+ 1 - correctness
+
+    Separate logic from code (move to different class or function)
+    Data type over flows 
+        Use long and  double instead of int and float
+
+ 2 - effeciency
+    
+    Use access modifiers like public & static if only required and also use final when you don't want to change any variable.
+    Use BufferdReader and BufferdWriter
+    Try to avoid object creation
+
+3 - debuggability 
+
+    Use good variable names
+    Avoid global variable declaration
+    use almost all possible builtin functions
+
+
+
+
+Test case generation is must for problems which you aren't sure of...

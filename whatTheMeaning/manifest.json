@@ -1,0 +1,26 @@
+{   
+    "manifest_version" : 2,
+    "name" : "WhatTheMeaning",
+    "version" : "0.1.0",
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+    "icons":{
+        "128": "logo.png"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["script.js"]
+    }],
+    "permissions":[
+        "alarms",
+        "notifications",
+        "storage",
+        "contextMenus"
+    ],
+    "background" : {
+        "scripts" : ["event.js"],
+        "persistent": false
+    }
+}
